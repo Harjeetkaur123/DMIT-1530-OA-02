@@ -1,0 +1,20 @@
+/* developer styles go here */
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+header,
+main,
+h1 {
+	width: 1200px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	
+}

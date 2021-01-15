@@ -1,0 +1,38 @@
+/*A hybrid of Andy Bell's reset*/
+
+/*Here all those things will go which will be used in all the pages in future.*/
+
+*,
+*:: before,
+*:: after{
+  box-sizing: border-box;
+} 
+
+body,
+h1, h2, h3, h4,
+p, ul, ol, dl,
+figure, figcaption, blockquote,
+li, dd {
+  padding: 0;
+  margin: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+input, button,
+textarea, select {
+  font: inherit;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ /*--children article thats inside it*/
+article > * + * {
+  margin-top: 1em; 
+  }
